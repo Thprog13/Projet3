@@ -1,0 +1,26 @@
+//Bienvenue
+
+cas d'utilisation utilisateur
+1) connecter
+2) Rechercher des resto
+3) faire des reservations
+4) rajouter des restos en favorits
+5) publier des reviews
+6) voir les resteau au alentour
+7) nortification
+8) avoir un historique
+9) Séléction des tables
+10) voir le menu
+11) chat bot suport client
+12) Déconexion
+
+Cas d'utilisation Restaurant
+1) publier sont resto
+2) voir les resvartions
+3) création de la salle
+4) publication du menu
+5) blackliste des clients
+6) nortification
+7) promo des clients fidèle
+8) connexion
+10) Déconexion
