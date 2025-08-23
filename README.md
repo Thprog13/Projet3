@@ -1,4 +1,4 @@
-# 🍽️ Bienvenue sur **ReserGo**
+# 🍽️ Bienvenue sur **...**
 
 Une application moderne qui connecte **utilisateurs** et **restaurants** pour faciliter la recherche, la réservation et la gestion d’expériences culinaires.
 
@@ -37,11 +37,11 @@ Une application moderne qui connecte **utilisateurs** et **restaurants** pour fa
 
 ## 🛠️ Technologies (exemple à adapter)
 
-- **Frontend** : React / Vue / Angular
-- **Backend** : Node.js / Java Spring / Django
-- **Base de données** : MySQL / PostgreSQL / MongoDB
-- **Authentification** : JWT / OAuth2
-- **Notifications** : Firebase / OneSignal
+- **Frontend** :
+- **Backend** :
+- **Base de données** :
+- **Authentification** :
+- **Notifications** :
 
 ---
 
