@@ -62,7 +62,4 @@ Une application moderne qui connecte **utilisateurs** et **restaurants** pour fa
 
 ## 🤝 Contributeurs
 
-👨‍💻 Développé par Fournier Lequin, Antonin
-👨‍💻 Développé par Hua, Thu Khoa
-👨‍💻 Développé par Ducasse, Mike Dudley
-👨‍💻 Développé par Héroux, Charles
+👨‍💻 Développé par Fournier Lequin Antonin, Hua Thu Khoa, Ducasse Mike Dudley & Héroux Charles
