@@ -1,4 +1,4 @@
-# 🍽️ Bienvenue sur **...**
+# 🍽️ Bienvenue sur **BookTable**
 
 Une application moderne qui connecte **utilisateurs** et **restaurants** pour faciliter la recherche, la réservation et la gestion d’expériences culinaires.
 
