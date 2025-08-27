@@ -18,7 +18,6 @@ Une application moderne qui connecte **utilisateurs** et **restaurants** pour fa
 8. 📜 Accéder à l’historique de ses réservations
 9. 🍴 Sélectionner sa table préférée
 10. 📖 Consulter le menu
-11. 🤖 Utiliser un chatbot de support client
 
 ---
 
@@ -28,17 +27,16 @@ Une application moderne qui connecte **utilisateurs** et **restaurants** pour fa
 2. 📅 Voir les réservations reçues
 3. 🪑 Créer et gérer la salle (tables disponibles)
 4. 📖 Publier le menu
-5. 🚫 Blacklister certains clients
-6. 🔔 Recevoir des notifications
-7. 🎁 Créer des promotions pour les clients fidèles
-8. 🔑 Connexion / Déconnexion
+5. 🔔 Recevoir des notifications
+6. 🎁 Créer des promotions pour les clients fidèles
+7. 🔑 Connexion / Déconnexion
 
 ---
 
 ## 🛠️ Technologies (exemple à adapter)
 
 - **Frontend** :
-- **Backend** :
+- **Backend** : 
 - **Base de données** :
 - **Authentification** :
 - **Notifications** :
@@ -58,9 +56,13 @@ Une application moderne qui connecte **utilisateurs** et **restaurants** pour fa
 - 📲 Application mobile (iOS & Android)
 - 🧠 Recommandations personnalisées grâce à l’IA
 - 🌍 Multi-langues et support international
+- 🤖 Utiliser un chatbot de support client
 
 ---
 
 ## 🤝 Contributeurs
 
-👨‍💻 Développé par Antonin Fournier Lequin
+👨‍💻 Développé par Fournier Lequin, Antonin
+👨‍💻 Développé par Hua, Thu Khoa
+👨‍💻 Développé par Ducasse, Mike Dudley
+👨‍💻 Développé par Héroux, Charles
