@@ -1,0 +1,60 @@
+1. Utilisateurs (users)
+id (PK)
+nom
+prenom
+email (unique)
+telephone
+mot_de_passe (hashé)
+role (client, restaurateur, admin)
+date_creation
+
+2. Restaurants (restaurants)
+id (PK)
+nom
+adresse
+ville
+code_postal
+pays
+telephone
+email_contact
+description
+Cote (en etoile, selon les reviews)
+cuisine_type (italien, japonais, chinois...)
+capacite_totale
+proprietaire_id (FK → users.id)
+date_creation
+
+3. Tables du restaurant (restaurant_tables)
+id (PK)
+restaurant_id (FK → restaurants.id)
+numero_table
+capacite (nombre de personnes)
+localisation (intérieur, terrasse, étage…)
+
+4. Réservations (reservations)
+id (PK)
+user_id (FK → users.id) → Client
+restaurant_id (FK → restaurants.id)
+table_id (FK → restaurant_tables.id, optionnel si assignation automatique, doit respecter capaciter)
+date_reservation
+heure_reservation
+nombre_personnes
+statut (confirmée, annulée, terminée)
+date_creation
+
+5. Menus (menus)
+id (PK)
+restaurant_id (FK → restaurants.id)
+nom
+description
+prix
+categorie (entrée, plat, dessert, boisson)
+
+6. Avis / Évaluations (reviews)
+id (PK)
+reservation_id (FK → reservations.id)
+user_id (FK → users.id)
+restaurant_id (FK → restaurants.id)
+note (1 à 5 etoile)
+commentaire
+date_creation
