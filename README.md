@@ -63,4 +63,4 @@ Une application moderne qui connecte **utilisateurs** et **restaurants** pour fa
 
 ## 🤝 Contributeurs
 
-👨‍💻 Développé par [Ton Nom]
+👨‍💻 Développé par Antonin Fournier Lequin
