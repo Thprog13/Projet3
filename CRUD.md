@@ -18,6 +18,15 @@
 - `PATCH  /restaurant/:id` → update part of restaurant info _(🔒 Auth required — owner/admin)_
 - `DELETE /restaurant/:id` → delete restaurant _(🔒 Auth required — owner/admin)_
 
+### 🪑 Restaurant Tables (Table Management)
+
+- `GET    /restaurant/:id/tables` → list all tables of a restaurant _(🔒 Auth required — owner/admin)_
+- `GET    /restaurant/:id/tables/:tableId` → get details of a specific table _(🔒 Auth required — owner/admin)_
+- `POST   /restaurant/:id/tables` → create a new table _(🔒 Auth required — owner/admin)_
+- `PUT    /restaurant/:id/tables/:tableId` → replace all info of a table _(🔒 Auth required — owner/admin)_
+- `PATCH  /restaurant/:id/tables/:tableId` → update part of a table _(🔒 Auth required — owner/admin)_
+- `DELETE /restaurant/:id/tables/:tableId` → delete a table _(🔒 Auth required — owner/admin)_
+
 ---
 
 ## 📅 Reservation
