@@ -47,5 +47,80 @@ module.exports = {
         },
       },
     },
+    Restaurants: {
+      type: Object,
+      properties: {
+        id: {
+          type: "string",
+          description: "Restaurant's ID",
+          example: "TODO",
+        },
+        nom: {
+          type: "string",
+          description: "Restaurant name",
+          example: "Pizza Pizza",
+        },
+        adresse: {
+          type: "string",
+          description: "Restaurant address",
+          example: "1111 Rue Jean",
+        },
+        ville: {
+          type: "string",
+          description: "Restaurant city",
+          example: "Montreal",
+        },
+        code_postal: {
+          type: "string",
+          description: "Restaurant postal code",
+          example: "J1J1J1",
+        },
+        pays: {
+          type: "string",
+          description: "Restaurant country",
+          example: "Canada",
+        },
+        telephone: {
+          type: "string",
+          description: "Restaurant phone number",
+          example: "5145555655",
+        },
+        email_contact: {
+          type: "string",
+          description: "Restaurant email",
+          example: "JohnDoe@example.com",
+        },
+        description: {
+          type: "string",
+          description: "Restaurant description",
+          example: "TODO",
+        },
+        cote: {
+          type: "integer",
+          description: "Restaurant note",
+          example: "TODO",
+        },
+        cuisine_type: {
+          type: "string",
+          description: "Restaurant type of dishes",
+          example: "TODO",
+        },
+        capacite_totale: {
+          type: "integer",
+          description: "Restaurant max capacity",
+          example: "TODO",
+        },
+        proprietaire_id: {
+          type: "string",
+          description: "Restaurant owners ID",
+          example: "TODO",
+        },
+        date_creation: {
+          type: "date",
+          description: "Restaurant ...",
+          example: "TODO",
+        },
+      },
+    },
   },
 };
