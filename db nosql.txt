@@ -1,0 +1,75 @@
++---------------------+
+|      Users          |
++---------------------+
+| id : string (PK)    |
+| nom : string        |
+| prenom : string     |
+| email : string (UQ) |
+| telephone : string  |
+| mot_de_passe : hash |
+| role : enum         |
+| date_creation : date|
++---------------------+
+        1
+        |
+        | (propriétaire)
+        |
+        *
++----------------------+
+|    Restaurants       |
++----------------------+
+| id : string (PK)     |
+| nom : string         |
+| adresse : string     |
+| ville : string       |
+| code_postal : string |
+| pays : string        |
+| telephone : string   |
+| email_contact : str  |
+| description : string |
+| cote : number        |
+| cuisine_type : string|
+| capacite_totale : int|
+| proprietaire_id : ref|
+| date_creation : date |
++----------------------+
+| tables : [           |
+|   {id, numero,       |
+|    capacite, loc}    |
+| ]                    |
+| menus : [            |
+|   {id, nom, desc,    |
+|    prix, categorie}  |
+| ]                    |
++----------------------+
+        1
+        |
+        |
+        *
++-----------------------+
+|     Reservations      |
++-----------------------+
+| id : string (PK)      |
+| user_id : ref         |
+| restaurant_id : ref   |
+| table_id : ref/null   |
+| date_reservation : dt |
+| heure_reservation : t |
+| nombre_personnes : int|
+| statut : enum         |
+| date_creation : date  |
++-----------------------+
+        1
+        |
+        *
++----------------------+
+|       Reviews        |
++----------------------+
+| id : string (PK)     |
+| reservation_id : ref |
+| user_id : ref        |
+| restaurant_id : ref  |
+| note : int (1-5)     |
+| commentaire : string |
+| date_creation : date |
++----------------------+
