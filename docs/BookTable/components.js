@@ -127,72 +127,47 @@ module.exports = {
       properties: {
         id: {
           type: "string",
-          description: "Restaurant's ID",
+          description: "Resrvation's ID",
           example: "TODO",
         },
-        nom: {
+        user_id: {
           type: "string",
-          description: "Restaurant name",
+          description: "User's ID",
           example: "Pizza Pizza",
         },
-        adresse: {
+        Restaurant_ID: {
           type: "string",
-          description: "Restaurant address",
+          description: "Restaurant ID",
           example: "1111 Rue Jean",
         },
-        ville: {
+        table_ID: {
           type: "string",
-          description: "Restaurant city",
+          description: "Table's ID",
           example: "Montreal",
         },
-        code_postal: {
-          type: "string",
-          description: "Restaurant postal code",
-          example: "J1J1J1",
+        Date_Reservation: {
+          type: "date",
+          description: "TODO",
+          example: "TODO",
         },
-        pays: {
-          type: "string",
-          description: "Restaurant country",
+        Heure_reservation: {
+          type: "time",
+          description: "TODO",
           example: "Canada",
         },
-        telephone: {
-          type: "string",
-          description: "Restaurant phone number",
+        nombre_personnes: {
+          type: "integer",
+          description: "TODO",
           example: "5145555655",
         },
-        email_contact: {
-          type: "string",
-          description: "Restaurant email",
+        statut: {
+          type: "todo",
+          description: "TODO",
           example: "JohnDoe@example.com",
-        },
-        description: {
-          type: "string",
-          description: "Restaurant description",
-          example: "TODO",
-        },
-        cote: {
-          type: "integer",
-          description: "Restaurant note",
-          example: "TODO",
-        },
-        cuisine_type: {
-          type: "string",
-          description: "Restaurant type of dishes",
-          example: "TODO",
-        },
-        capacite_totale: {
-          type: "integer",
-          description: "Restaurant max capacity",
-          example: "TODO",
-        },
-        proprietaire_id: {
-          type: "string",
-          description: "Restaurant owners ID",
-          example: "TODO",
         },
         date_creation: {
           type: "date",
-          description: "Restaurant ...",
+          description: "...",
           example: "TODO",
         },
       },
@@ -205,65 +180,30 @@ module.exports = {
           description: "Restaurant's ID",
           example: "TODO",
         },
-        nom: {
+        Reservation_ID: {
           type: "string",
-          description: "Restaurant name",
-          example: "Pizza Pizza",
+          description: "TODO",
+          example: "TODO",
         },
-        adresse: {
+        user_id: {
           type: "string",
           description: "Restaurant address",
           example: "1111 Rue Jean",
         },
-        ville: {
+        Restaurant_ID: {
           type: "string",
-          description: "Restaurant city",
-          example: "Montreal",
+          description: "Restaurant ID",
+          example: "TODO",
         },
-        code_postal: {
-          type: "string",
-          description: "Restaurant postal code",
-          example: "J1J1J1",
+        note: {
+          type: "integer",
+          description: "TODO",
+          example: "TODO",
         },
-        pays: {
+        commentaire: {
           type: "string",
-          description: "Restaurant country",
+          description: "Comments",
           example: "Canada",
-        },
-        telephone: {
-          type: "string",
-          description: "Restaurant phone number",
-          example: "5145555655",
-        },
-        email_contact: {
-          type: "string",
-          description: "Restaurant email",
-          example: "JohnDoe@example.com",
-        },
-        description: {
-          type: "string",
-          description: "Restaurant description",
-          example: "TODO",
-        },
-        cote: {
-          type: "integer",
-          description: "Restaurant note",
-          example: "TODO",
-        },
-        cuisine_type: {
-          type: "string",
-          description: "Restaurant type of dishes",
-          example: "TODO",
-        },
-        capacite_totale: {
-          type: "integer",
-          description: "Restaurant max capacity",
-          example: "TODO",
-        },
-        proprietaire_id: {
-          type: "string",
-          description: "Restaurant owners ID",
-          example: "TODO",
         },
         date_creation: {
           type: "date",
